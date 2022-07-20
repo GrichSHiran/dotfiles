@@ -4,12 +4,14 @@
 
 - clean: ['~']
 
+# If link values are left blank, Dotbot will assume you want the source
+# files to have the same name as the symlinks minus the dot. (.zshrc -> zshrc)
 - link:
     ~/.zshrc: zshrc
+    ~/.gitconfig: gitconfig
 
 - create:
     - ~/Work
-    - ~/hey/you/guys
 
 # - shell:
 #   - [git submodule update --init --recursive, Installing submodules]
