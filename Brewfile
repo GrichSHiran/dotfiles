@@ -1,11 +1,8 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
-
-# Brews (Packages)
 brew "bat"
 brew "unbound"
 brew "gnutls"
@@ -31,10 +28,9 @@ brew "trash-cli"
 brew "vim"
 brew "wget"
 brew "zoxide"
-
-# Casks (Applications)
 cask "alfred"
 cask "font-hack-nerd-font"
+cask "gitkraken"
 cask "iterm2"
 cask "kitty"
 cask "visual-studio-code"
