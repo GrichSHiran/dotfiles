@@ -53,6 +53,14 @@ brew "vim"
 brew "wget"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Mac App Store command-line interface
+brew "mas"
+mas "Bitwarden", id: 1352778147
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Microsoft OneNote", id: 784801555
+mas "WavePad Audio Editor", id: 970044455
+
 # Application launcher and productivity software
 cask "alfred"
 cask "font-hack-nerd-font"
