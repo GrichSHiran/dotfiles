@@ -1,3 +1,4 @@
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -35,6 +36,8 @@ brew "pandoc"
 brew "jupyterlab"
 # Drop-in replacement for MySQL
 brew "mariadb", restart_service: true
+# Mac App Store command-line interface
+brew "mas"
 # NCurses Disk Usage
 brew "ncdu"
 # Fast, highly customisable system info script
@@ -53,14 +56,8 @@ brew "vim"
 brew "wget"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-# Mac App Store command-line interface
-brew "mas"
-mas "Bitwarden", id: 1352778147
-mas "LINE", id: 539883307
-mas "Magnet", id: 441258766
-mas "Microsoft OneNote", id: 784801555
-mas "WavePad Audio Editor", id: 970044455
-
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
 cask "font-hack-nerd-font"
@@ -72,3 +69,8 @@ cask "iterm2"
 cask "kitty"
 # Open-source code editor
 cask "visual-studio-code"
+mas "Bitwarden", id: 1352778147
+mas "LINE", id: 539883307
+mas "Magnet", id: 441258766
+mas "Microsoft OneNote", id: 784801555
+mas "WavePad Audio Editor", id: 970044455
